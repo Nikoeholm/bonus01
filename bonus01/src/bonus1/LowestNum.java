@@ -12,6 +12,7 @@ public class LowestNum {
 		
 		double a = scan.nextDouble();  // scan.nextDouble() smager p� n�ste tal 
 		double b = scan.nextDouble();
+		System.out.println("og så det sidste" +"\n");
 		double c = scan.nextDouble(); 
 		
 		double x;
@@ -24,6 +25,7 @@ public class LowestNum {
 		
 		System.out.print("Lowest number: ");
 		System.out.println(lowestNumber);
+		
 		
 		scan.close();
 		
