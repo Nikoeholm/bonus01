@@ -6,11 +6,11 @@ public class LowestNum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Indtast 3 tal: ");
+		System.out.println("Indtast 3 heltal: ");
 		
 		Scanner scan = new Scanner(System.in); // System.in henter information fra konsollen/keyboard 
 		
-		double a = scan.nextDouble();  // scan.nextDouble() smager på næste tal 
+		double a = scan.nextDouble();  // scan.nextDouble() smager pï¿½ nï¿½ste tal 
 		double b = scan.nextDouble();
 		double c = scan.nextDouble(); 
 		
@@ -19,7 +19,7 @@ public class LowestNum {
 		
 		x = Math.min(a,b);
 		lowestNumber = Math.min(x,c); 
-		/* alternativt, smid x=math.min(a,b) ind som x i ovenstående linje*/ 
+		/* alternativt, smid x=math.min(a,b) ind som x i ovenstï¿½ende linje*/ 
 		
 		
 		System.out.print("Lowest number: ");
@@ -27,7 +27,7 @@ public class LowestNum {
 		
 		scan.close();
 		
-		//scan.close(); // sørg altid for at lukke - ellers tager den for meget memory. Processen stopper ikke 
+		//scan.close(); // sï¿½rg altid for at lukke - ellers tager den for meget memory. Processen stopper ikke 
 
 		
 
