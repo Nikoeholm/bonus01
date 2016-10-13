@@ -23,7 +23,7 @@ public class LowestNum {
 		/* alternativt, smid x=math.min(a,b) ind som x i ovenst�ende linje*/ 
 		
 		
-		System.out.print("Lowest number: ");
+		System.out.print("Laveste nummer er: ");
 		System.out.println(lowestNumber);
 		
 		
